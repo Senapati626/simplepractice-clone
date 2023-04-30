@@ -1,0 +1,26 @@
+{
+  "clients": [
+    {
+      "clientType": "Adult",
+      "firstName": "Brad",
+      "lastName": "Pitt",
+      "email": "brad.pitt@simplepractice.com",
+      "phone": "9876543210",
+      "clinician": "Dr. Tarika"
+    },
+    {
+      "clientType": "Adult",
+      "firstName": "Adam",
+      "lastName": "Cohen",
+      "email": "adam.cohen@simplepractice.com",
+      "phone": "9876543210",
+      "clinician": "Dr. Tarika"
+    }
+  ],
+  "meetings": [
+    []
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

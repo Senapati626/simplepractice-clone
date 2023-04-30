@@ -18,7 +18,7 @@ const App: React.FC = ()=> {
         <div className='container-left'>
           <div className='container-left-top'>
               <div className='container-left-link'>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="none" viewBox="0 0 12 12"><path fill="#707070" fill-rule="evenodd" d="M9.75 0h.75c.825 0 1.5.675 1.5 1.5v9c0 .825-.675 1.5-1.5 1.5h-9A1.5 1.5 0 010 10.5v-9A1.5 1.5 0 011.5 0h8.25zM1.5 10.5h9V3.75h-9v6.75zm2.25-3a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" clip-rule="evenodd"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="none" viewBox="0 0 12 12"><path fill="#707070" fillRule="evenodd" d="M9.75 0h.75c.825 0 1.5.675 1.5 1.5v9c0 .825-.675 1.5-1.5 1.5h-9A1.5 1.5 0 010 10.5v-9A1.5 1.5 0 011.5 0h8.25zM1.5 10.5h9V3.75h-9v6.75zm2.25-3a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" clipRule="evenodd"></path></svg>
                 <p><Link to="/calendar" style={{textDecoration:"none",color:"#707070"}}>Calendar</Link></p>
               </div>
               <div className='container-left-link'>
@@ -26,7 +26,7 @@ const App: React.FC = ()=> {
                 <p><Link to="/clients" style={{textDecoration:"none",color:"#707070"}}>Clients</Link></p>
               </div>
               <div className='container-left-link'>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" fill="none" viewBox="0 0 16 12"><path fill="#707070" fill-rule="evenodd" d="M1.714 0h12c.952 0 1.715.763 1.715 1.714v8.572c0 .951-.763 1.714-1.715 1.714h-12A1.708 1.708 0 010 10.286l.005-5.143H12V3.429H.007l.002-1.715A1.7 1.7 0 011.714 0z" clip-rule="evenodd"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" fill="none" viewBox="0 0 16 12"><path fill="#707070" fillRule="evenodd" d="M1.714 0h12c.952 0 1.715.763 1.715 1.714v8.572c0 .951-.763 1.714-1.715 1.714h-12A1.708 1.708 0 010 10.286l.005-5.143H12V3.429H.007l.002-1.715A1.7 1.7 0 011.714 0z" clipRule="evenodd"></path></svg>
                 <p>Billing</p>
               </div>
               <div className='container-left-link'>
@@ -58,11 +58,11 @@ const App: React.FC = ()=> {
             </div>
             <div className='container-left-top'>
               <div className='container-left-link'>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" fill="none" viewBox="0 0 14 22"><path fill="#333" fill-rule="evenodd" d="M1.99 0l10 .01c1.1 0 2 .89 2 1.99v18c0 1.1-.9 2-2 2h-10C.89 22 0 21.1 0 20V2C0 .9.89 0 1.99 0zm0 18h10V4h-10v14z" clip-rule="evenodd"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" fill="none" viewBox="0 0 14 22"><path fill="#333" fillRule="evenodd" d="M1.99 0l10 .01c1.1 0 2 .89 2 1.99v18c0 1.1-.9 2-2 2h-10C.89 22 0 21.1 0 20V2C0 .9.89 0 1.99 0zm0 18h10V4h-10v14z" clipRule="evenodd"></path></svg>
                 <p>Download free app</p>
               </div>
               <div className='container-left-link' style={{margin:"10px 0"}}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" fill="none" viewBox="0 0 11 13"><path fill="#444" fill-rule="evenodd" d="M8.847 4.333h-.632V3.095C8.215 1.387 6.8 0 5.055 0c-1.15 0-2.159.604-2.711 1.506l1.077.646a1.9 1.9 0 011.635-.914c1.049 0 1.895.83 1.895 1.857v1.238H1.264C.569 4.333 0 4.89 0 5.571v6.19C0 12.444.569 13 1.264 13h7.583c.695 0 1.264-.557 1.264-1.238v-6.19c0-.682-.569-1.239-1.264-1.239zM6.32 8.667a1.25 1.25 0 01-1.263 1.238 1.251 1.251 0 01-1.264-1.238c0-.684.566-1.238 1.264-1.238A1.25 1.25 0 016.32 8.667z" clip-rule="evenodd"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" fill="none" viewBox="0 0 11 13"><path fill="#444" fillRule="evenodd" d="M8.847 4.333h-.632V3.095C8.215 1.387 6.8 0 5.055 0c-1.15 0-2.159.604-2.711 1.506l1.077.646a1.9 1.9 0 011.635-.914c1.049 0 1.895.83 1.895 1.857v1.238H1.264C.569 4.333 0 4.89 0 5.571v6.19C0 12.444.569 13 1.264 13h7.583c.695 0 1.264-.557 1.264-1.238v-6.19c0-.682-.569-1.239-1.264-1.239zM6.32 8.667a1.25 1.25 0 01-1.263 1.238 1.251 1.251 0 01-1.264-1.238c0-.684.566-1.238 1.264-1.238A1.25 1.25 0 016.32 8.667z" clipRule="evenodd"></path></svg>
                 <p style={{fontWeight:"600"}}>Privacy off</p>
               </div>
             </div>

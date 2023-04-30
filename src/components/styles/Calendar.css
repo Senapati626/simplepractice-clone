@@ -86,7 +86,7 @@
     color: #707070;
 }
 .e-schedule .e-table-container {
-    height: 630px;
+    min-height: 630px;
     overflow-y: scroll;
 }
 .e-schedule-table{
@@ -96,3 +96,62 @@
     position: sticky;
     top: 0;
 }
+.e-schedule .e-vertical-view .e-header-cells .e-header-day{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.e-schedule .e-vertical-view .e-header-cells .e-header-date{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.e-schedule .e-vertical-view .e-header-cells.e-current-day{
+    color: #1371cb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.e-schedule .e-vertical-view .e-header-cells.e-current-day .e-header-date span{
+    background: rgba(231, 241, 249, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.e-schedule .e-month-view .e-appointment{
+    background-color: #ade9cd;
+    color: #0a6038;
+    box-shadow: none;
+}
+.e-schedule .e-month-view .e-date-header{
+    width: 24px;
+    height: 24px;
+    display: grid;
+    place-items: center;
+    font-size: 12px;
+    padding: 2px;
+    float: right;
+    margin: 4px;  
+    margin: 4px 20px;
+    color: #444;
+}
+.e-schedule .e-month-view .e-current-date .e-date-header, .e-schedule .e-month-agenda-view .e-current-date .e-date-header{
+    background-color: #1371cb;
+    width: 24px;
+    height: 24px;
+    display: grid;
+    place-items: center;
+    font-size: 12px;
+    padding: 2px;
+    float: right;
+    margin: 4px 20px;
+}
+.e-schedule .e-month-view .e-work-days, .e-schedule .e-month-agenda-view .e-work-days{
+    height: 100px;
+}
+.e-schedule .e-month-view .e-other-month, .e-schedule .e-month-agenda-view .e-other-month .e-work-days{
+    opacity: 0.54;
+}
+

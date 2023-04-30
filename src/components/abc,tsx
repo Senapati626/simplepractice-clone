@@ -1,0 +1,29 @@
+import React from 'react'
+import { Inject,ScheduleComponent,Day,Week,Month,WorkWeek,Agenda,ViewsDirective, ViewDirective , EventSettingsModel} from '@syncfusion/ej2-react-schedule';
+import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
+import { DateTimePickerComponent } from '@syncfusion/ej2-react-calendars';
+import { L10n } from '@syncfusion/ej2-base';
+import { DataManager, WebApiAdaptor} from '@syncfusion/ej2-data';
+import axios from 'axios';
+import meetings from '../db';
+import './styles/Calendar.css';
+
+
+export default class Calendar extends React.Component{
+  private localData: EventSettingsModel = {
+    dataSource: meetings
+  }
+  public render(){
+    console.log(meetings)
+    return <ScheduleComponent currentView='Month'
+    eventSettings={this.localData}>
+      <ViewsDirective>
+          <ViewDirective option='Day' startHour='07:00' endHour='23:59'></ViewDirective>
+          <ViewDirective option='Week' startHour='07:00' endHour='23:59'></ViewDirective>
+          <ViewDirective option='Month' startHour='07:00' endHour='23:59'></ViewDirective>
+        </ViewsDirective>
+      <Inject services={[Day,Week,Month]}/>
+    </ScheduleComponent>
+  }
+}
+

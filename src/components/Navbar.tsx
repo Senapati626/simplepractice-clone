@@ -1,14 +1,16 @@
 import React from 'react'
 import './styles/Navbar.css';
 import Message from './assets/message.png';
-
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <div className='nav-container'>
         <div className='nav-left'>
             <div className='nav-logo'>
+                <Link to="/">
                 <img src='https://d34piorrop57r.cloudfront.net/frontend/assets/images/logo-white@2x-de2a63f37a89a3e1e51b486d3170bf3c-v1.png' alt='simplepractice'/>
+                </Link>
             </div>
             <div className='nav-search-clients'>
                 <div>
