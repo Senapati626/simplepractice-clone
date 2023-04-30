@@ -5,7 +5,6 @@ import { DateTimePickerComponent } from '@syncfusion/ej2-react-calendars';
 import { RadioButtonComponent, CheckBoxComponent } from '@syncfusion/ej2-react-buttons';
 import { L10n } from '@syncfusion/ej2-base';
 import { DataManager, WebApiAdaptor} from '@syncfusion/ej2-data';
-import axios from 'axios';
 import meetings from '../db';
 import './styles/Calendar.css';
 
