@@ -5,6 +5,7 @@
   "dependencies": {
     "@syncfusion/ej2-base": "^21.1.40",
     "@syncfusion/ej2-react-base": "^21.1.41",
+    "@syncfusion/ej2-react-buttons": "^21.1.37",
     "@syncfusion/ej2-react-calendars": "^21.1.41",
     "@syncfusion/ej2-react-dropdowns": "^21.1.41",
     "@syncfusion/ej2-react-schedule": "^21.1.41",
@@ -16,7 +17,6 @@
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.1",
     "@types/react-router-dom": "^5.3.3",
-    "axios": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",
